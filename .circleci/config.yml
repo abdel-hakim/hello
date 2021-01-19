@@ -27,7 +27,3 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
-            
-      - store_artifacts:
-          path: test-reports
-          destination: test-reports
